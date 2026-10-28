@@ -9,7 +9,7 @@ public class Program
         // Используем dotnet --info как безопасную утилиту.
         // Если dotnet недоступен через PATH, замените
         // FileName на путь к другой разрешённой утилите.
-
+         
         ProcessStartInfo startInfo = new()
         {
             FileName = "dotnet",
